@@ -6,8 +6,8 @@ Adafruit_NeoPixel rightBlinker(2, 13, NEO_GRBW + NEO_KHZ800);
 Adafruit_NeoPixel frontLight(20, 14, NEO_GRBW + NEO_KHZ800);
 Adafruit_NeoPixel brakeLight(20, 27, NEO_GRBW + NEO_KHZ800);
 
-ezButton leftSwitch(26);
-ezButton rightSwitch(25);
+ezButton leftSwitch(25);
+ezButton rightSwitch(26);
 
 int activeBlinkLight = 0;
 
